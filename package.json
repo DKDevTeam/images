@@ -1,0 +1,26 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKDevTeam/images.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DKDevTeam/images/issues"
+  },
+  "homepage": "https://github.com/DKDevTeam/images#readme",
+  "dependencies": {
+    "conmaster.js": "^1.1.7",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
