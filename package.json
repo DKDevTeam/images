@@ -19,8 +19,10 @@
   "homepage": "https://github.com/DKDevTeam/images#readme",
   "dependencies": {
     "conmaster.js": "^1.1.7",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
+    "npm": "^7.20.0",
     "path": "^0.12.7"
   }
 }
