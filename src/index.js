@@ -17,6 +17,10 @@ app.get("/", function (req, res) {
   res.send("Hello");
 });
 
+app.get("/contact", (req, res) => {
+  res.sendfile("src/public/contact.html");
+});
+
 app.listen(app.get("port"), function () {
   console.log("Node app is running on port", app.get("port"));
 });
