@@ -12,13 +12,18 @@ app.get("/image", function (req, res) {
 });
 
 app.use(express.static("src/public"));
+app.use(express.json());
 
 app.get("/", function (req, res) {
   res.send("Hello");
 });
 
 app.get("/contact", (req, res) => {
-  res.sendfile("src/public/contact.html");
+  res.sendFile("public/contact.html");
+});
+
+app.post("/contact", (req, res) => {
+  console.log(req.body);
 });
 
 app.listen(app.get("port"), function () {
